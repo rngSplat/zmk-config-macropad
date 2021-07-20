@@ -33,8 +33,8 @@
         diode-direction = "row2col";
 
         col-gpios
-            = <&portb 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&portb 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&porta 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&porta 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&porta 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&porta 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
@@ -46,7 +46,7 @@
             , <&porta 5 GPIO_ACTIVE_HIGH>
             ;
     };   
-    
+
 };
 
 &sercom0 { status = "disabled"; };
