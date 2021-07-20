@@ -44,10 +44,8 @@
             , <&porta 3 GPIO_ACTIVE_HIGH>
             , <&porta 4 GPIO_ACTIVE_HIGH>
             , <&porta 5 GPIO_ACTIVE_HIGH>
-            , <&porta 1 GPIO_ACTIVE_HIGH>
-            , <&porta 0 GPIO_ACTIVE_HIGH>
             ;
-    };
+    };   
     
 };
 
