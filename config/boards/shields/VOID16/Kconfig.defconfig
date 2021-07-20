@@ -1,3 +1,12 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
 if SHIELD_VOID16
-config ZMK_KEYBOARD_NAME    default "VOID16 Macropad"
+
+config ZMK_KEYBOARD_NAME
+    default "VOID16"
+
+config ZMK_USB
+    default y
+
 endif
