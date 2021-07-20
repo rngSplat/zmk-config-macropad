@@ -49,6 +49,7 @@
 
 &sercom0 { status = "disabled"; };
 &sercom4 { status = "disabled"; };
+&sercom2 { status = "disabled"; };
 
 /*
 left_encoder: encoder_left {
