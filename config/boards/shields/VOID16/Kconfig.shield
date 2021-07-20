@@ -1,0 +1,1 @@
+config SHIELD_VOID16    def_bool $(shields_list_contains,VOID16)

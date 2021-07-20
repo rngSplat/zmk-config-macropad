@@ -1,0 +1,3 @@
+if SHIELD_VOID16
+config ZMK_KEYBOARD_NAME    default "VOID16 Macropad"
+endif
