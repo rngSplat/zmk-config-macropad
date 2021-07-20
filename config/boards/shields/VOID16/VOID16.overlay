@@ -40,8 +40,8 @@
         row-gpios
             = <&porta 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&porta 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&porta 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&porta 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&porta 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&porta 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
     };   
 
