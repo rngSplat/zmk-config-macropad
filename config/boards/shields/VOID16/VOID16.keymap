@@ -7,15 +7,15 @@
 
         default_layer {
 // -----------------------------------------
-// |   0   |    1    |    2    |    3    | 
-// |   4   |    5    |    6    |    LGUI+LSHIFT+S    |
-// |   8   |    9    |    A    |    B    |
-// |   C   |    D    |    E    |    F    |
+// |   0   |    1    |    LGUI+LSHIFT+B    |    LGUI+LSHIFT+D    | 
+// |   4   |    5    |    LGUI+LSHIFT+A    |    LGUI+LSHIFT+S    |
+// |   8   |    9    |    LGUI+LSHIFT+E    |    LGUI+LSHIFT+K    |
+// |   C   |    D    |    LGUI+LSHIFT+O    |    LGUI+LSHIFT+M    |
             bindings = <
-    &kp N0  &kp N1  &kp N2  &kp N3
-    &kp N4  &kp N5  &kp N6  &kp LG(LS(S))
-    &kp N8  &kp N9  &kp A   &kp B
-    &kp C   &kp D   &kp E   &kp F
+    &kp N0  &kp N1  &kp LG(LS(B))   &kp LG(LS(D))
+    &kp N4  &kp N5  &kp LG(LS(A))   &kp LG(LS(S))
+    &kp N8  &kp N9  &kp LG(LS(E))   &kp LG(LS(K))
+    &kp C   &kp D   &kp LG(LS(O))   &kp LG(LS(M))
             >;
 //            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
