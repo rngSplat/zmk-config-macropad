@@ -31,10 +31,10 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&portb 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&porta 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&porta 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&porta 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&portb 9 GPIO_ACTIVE_HIGH>
+            , <&porta 7 GPIO_ACTIVE_HIGH>
+            , <&porta 5 GPIO_ACTIVE_HIGH>
+            , <&porta 6 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
