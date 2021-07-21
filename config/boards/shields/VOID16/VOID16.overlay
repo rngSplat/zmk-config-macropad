@@ -6,6 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
+/*
 left_encoder: encoder_left {
         compatible = "alps,ec11";
         label = "LEFT_ENCODER";
@@ -13,6 +14,7 @@ left_encoder: encoder_left {
         b-gpios = <&porta 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         resolution = <4>;
     };
+*/
 
 / {
     chosen {
