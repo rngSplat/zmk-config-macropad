@@ -54,10 +54,13 @@ left_encoder: encoder_left {
             , <&porta 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };   
-    sensors {compatible = "zmk,keymap-sensors"; sensors = <&left_encoder>;};
     &left_encoder {
         status = "okay";
     };
+};
+sensors {
+    compatible = "zmk,keymap-sensors"; 
+    sensors = <&left_encoder>;
 };
 
 &sercom0 { status = "disabled"; };
